@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tasty Bites Interactive Menu</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./type.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🌮 Tasty Bites</h1>
+    <input type="text" id="searchBar" placeholder="Search menu...">
+  </header>
+
+  <nav>
+    <button onclick="filterCategory('all')">All</button>
+    <button onclick="filterCategory('starters')">Starters</button>
+    <button onclick="filterCategory('mains')">Mains</button>
+    <button onclick="filterCategory('desserts')">Desserts</button>
+  </nav>
+
+  <section id="menu">
+    <div class="item starters">🥗 Caesar Salad - $8</div>
+    <div class="item mains special">🍕 Margherita Pizza - $12 (Chef’s Special)</div>
+    <div class="item mains">🍔 Classic Burger - $10</div>
+    <div class="item desserts">🍨 Ice Cream Sundae - $6</div>
+    <div class="item desserts special">🍰 Chocolate Lava Cake - $7 (Chef’s Special)</div>
+  </section>
+
+  <footer>
+    <p>© 2025 Tasty Bites</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
